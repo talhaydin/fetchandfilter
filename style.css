@@ -1,0 +1,74 @@
+.bold {
+    font-weight: bold;
+}
+body{
+    background: rgb(96,40,134);
+    background: linear-gradient(90deg, rgba(96,40,134,1) 0%, rgba(37,26,26,1) 100%);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: white;
+}
+
+#center{
+  text-align: center;
+}
+
+.wrapper {
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;  
+    text-align: center;
+
+  }
+
+.dataButton{
+    background-color: gray;
+    border: 1px solid  ivory;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    line-height: 1.1;
+    color: #fff;
+    display: inline-block;;
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+    
+}
+
+.filterButton{    background-color: gray;  
+    border-radius: 10px;
+    color: #fff;
+    display: inline;
+    padding: 16px;
+    margin-top: 10px;
+    width: 40%;    
+}
+
+.namefiltre{
+    width: 25%;
+    align-items: center;
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+li {
+    padding: 10px 10px;
+    background-color: gray;
+    border: 1.5px solid ivory;
+    border-radius: 10px;
+  }
+
+.filterAll{
+  display: inline !important
+}

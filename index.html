@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <button class="dataButton" onclick="fetchData()">FETCH</button>
+        <div id="center">
+            <button class="filterButton" onclick="filter()" id="filterButton">Filter </button>
+            <div id="filterAll" style="display: none;">
+                <div id="namefiltre">
+                    <h5>Name Filter</h5>
+                    <input type="text" class="namefiltre" id="nameFilter" name="namefilter" maxlength="1"
+                        placeholder="First letter of name" />
+                </div>
+                <div id="ageFilter">
+                    <h5>Age Filter:</h5>
+                    <input type="checkbox" class="agefiltre" id="ageFilter" />
+                </div>
+                <div id="isActive">
+                    <h5>isActive Filter:</h5>
+                    <input type="checkbox" class="isactivefiltre" id="isActiveFilter" />
+                </div>
+
+
+
+            </div>
+            <ul class="list">
+
+            </ul>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
